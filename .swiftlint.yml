@@ -1,0 +1,21 @@
+excluded:
+  - Carthage
+  - Pods
+
+disabled_rules:
+  - todo
+  - line_length
+  - identifier_name
+  - nesting
+  - function_parameter_count
+
+opt_in_rules: # disabled by default, enabled by added here
+  - control_statement
+  - empty_count
+  - trailing_newline
+  - colon
+  - comma
+
+large_tuple: # redefine the rule, 3 warning 4 error by default
+- 5
+- 6
